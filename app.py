@@ -21,7 +21,7 @@ app.layout = html.Div(children=[html.H1(children='Sample Dash Web App Dashboard'
             [
                 html.Div(
                     [
-                        html.P('Choose Item:'),
+                        html.P('Choose Item Hola mundo:'),
                         dcc.Checklist(
                                 id = 'Item_List',
                                 options=[
